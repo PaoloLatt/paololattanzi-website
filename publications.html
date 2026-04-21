@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Publications — Paolo Lattanzi</title>
+  <meta name="description" content="Publications by Paolo Lattanzi — journal articles, book chapters, and working papers.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;1,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    .filter-bar {
+      display: flex;
+      gap: 0.5rem;
+      flex-wrap: wrap;
+      margin-bottom: 2rem;
+    }
+    .filter-btn {
+      padding: 0.4rem 1rem;
+      font-size: 0.82rem;
+      font-weight: 600;
+      border: 1px solid var(--color-border);
+      border-radius: 100px;
+      background: var(--color-white);
+      color: var(--color-text-muted);
+      cursor: pointer;
+      transition: all var(--transition);
+    }
+    .filter-btn:hover,
+    .filter-btn.active {
+      background: var(--color-primary);
+      color: var(--color-white);
+      border-color: var(--color-primary);
+    }
+    .pub-section-heading {
+      font-family: var(--font-sans);
+      font-size: 0.75rem;
+      font-weight: 700;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: var(--color-text-muted);
+      padding: 0.5rem 0;
+      border-bottom: 1px solid var(--color-border);
+      margin-top: 2.5rem;
+      margin-bottom: 1.25rem;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ===== NAVIGATION ===== -->
+  <nav class="nav" aria-label="Main navigation">
+    <div class="nav__inner">
+      <a href="index.html" class="nav__brand" aria-label="Paolo Lattanzi — Home">
+        <span class="nav__brand-name">Paolo Lattanzi</span>
+        <span class="nav__brand-sub">Academic Philosopher</span>
+      </a>
+      <button class="nav__toggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav__links" role="list">
+        <li><a href="index.html" class="nav__link">Home</a></li>
+        <li><a href="research.html" class="nav__link">Research</a></li>
+        <li><a href="publications.html" class="nav__link">Publications</a></li>
+        <li><a href="blog.html" class="nav__link">Blog</a></li>
+        <li><a href="contact.html" class="nav__link">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ===== PAGE HERO ===== -->
+  <section class="page-hero">
+    <div class="container page-hero__inner">
+      <nav class="breadcrumb" aria-label="Breadcrumb">
+        <a href="index.html">Home</a>
+        <span class="breadcrumb__sep">›</span>
+        <span class="breadcrumb__current">Publications</span>
+      </nav>
+      <h1 class="page-hero__title">Publications</h1>
+      <p class="page-hero__subtitle">
+        Journal articles, book chapters, and working papers in philosophy of time and political theory.
+      </p>
+    </div>
+  </section>
+
+  <!-- ===== PUBLICATIONS ===== -->
+  <section class="section">
+    <div class="container">
+
+      <div class="filter-bar" role="group" aria-label="Filter publications">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="article">Journal Articles</button>
+        <button class="filter-btn" data-filter="chapter">Book Chapters</button>
+        <button class="filter-btn" data-filter="working">Working Papers</button>
+      </div>
+
+      <!-- Journal Articles -->
+      <div class="pub-section-heading">Journal Articles</div>
+      <div class="publications-list">
+
+        <div class="pub-item" data-type="article">
+          <span class="pub-item__year">2024</span>
+          <div>
+            <div class="pub-item__title">The Temporality of Democratic Deliberation</div>
+            <div class="pub-item__journal">Political Theory Quarterly, Vol. 52, No. 3, pp. 341–368</div>
+            <div class="pub-item__tags">
+              <span class="tag">Democracy</span>
+              <span class="tag">Deliberation</span>
+              <span class="tag">Temporality</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="pub-item" data-type="article">
+          <span class="pub-item__year">2023</span>
+          <div>
+            <div class="pub-item__title">Passage, Permanence, and Political Change: A McTaggartian Reading</div>
+            <div class="pub-item__journal">Philosophical Studies, Vol. 180, No. 4, pp. 1023–1049</div>
+            <div class="pub-item__tags">
+              <span class="tag">McTaggart</span>
+              <span class="tag">Metaphysics</span>
+              <span class="tag">Political Change</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="pub-item" data-type="article">
+          <span class="pub-item__year">2022</span>
+          <div>
+            <div class="pub-item__title">Intergenerational Justice and the Open Future</div>
+            <div class="pub-item__journal">Journal of Political Philosophy, Vol. 30, No. 1, pp. 55–82</div>
+            <div class="pub-item__tags">
+              <span class="tag">Justice</span>
+              <span class="tag">Future Generations</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="pub-item" data-type="article">
+          <span class="pub-item__year">2021</span>
+          <div>
+            <div class="pub-item__title">Against Temporal Parochialism in Political Philosophy</div>
+            <div class="pub-item__journal">Ethics, Vol. 131, No. 3, pp. 512–541</div>
+            <div class="pub-item__tags">
+              <span class="tag">Political Philosophy</span>
+              <span class="tag">Temporal Bias</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="pub-item" data-type="article">
+          <span class="pub-item__year">2020</span>
+          <div>
+            <div class="pub-item__title">The Growing Block and Collective Responsibility</div>
+            <div class="pub-item__journal">Mind, Vol. 129, No. 516, pp. 1077–1102</div>
+            <div class="pub-item__tags">
+              <span class="tag">Growing Block</span>
+              <span class="tag">Moral Responsibility</span>
+              <span class="tag">Metaphysics</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="pub-item" data-type="article">
+          <span class="pub-item__year">2019</span>
+          <div>
+            <div class="pub-item__title">Democratic Representation Across Generations</div>
+            <div class="pub-item__journal">Philosophy & Public Affairs, Vol. 47, No. 2, pp. 148–180</div>
+            <div class="pub-item__tags">
+              <span class="tag">Representation</span>
+              <span class="tag">Democracy</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Book Chapters -->
+      <div class="pub-section-heading">Book Chapters</div>
+      <div class="publications-list">
+
+        <div class="pub-item" data-type="chapter">
+          <span class="pub-item__year">2023</span>
+          <div>
+            <div class="pub-item__title">Time, Memory, and Political Identity</div>
+            <div class="pub-item__journal">In: <em>The Oxford Handbook of Political Time</em>, ed. A. Smith & B. Jones. Oxford University Press, pp. 214–238.</div>
+            <div class="pub-item__tags">
+              <span class="tag">Memory</span>
+              <span class="tag">Identity</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="pub-item" data-type="chapter">
+          <span class="pub-item__year">2021</span>
+          <div>
+            <div class="pub-item__title">Presentism and Political Ontology</div>
+            <div class="pub-item__journal">In: <em>New Essays in the Metaphysics of Politics</em>, ed. C. Dupont. Routledge, pp. 89–112.</div>
+            <div class="pub-item__tags">
+              <span class="tag">Presentism</span>
+              <span class="tag">Political Ontology</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Working Papers -->
+      <div class="pub-section-heading">Working Papers & Under Review</div>
+      <div class="publications-list">
+
+        <div class="pub-item" data-type="working">
+          <span class="pub-item__year">2025</span>
+          <div>
+            <div class="pub-item__title">Democratic Stewardship and the Claims of the Future</div>
+            <div class="pub-item__journal"><em>Under review</em> — available on request</div>
+            <div class="pub-item__tags">
+              <span class="tag">Working Paper</span>
+              <span class="tag">Stewardship</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="pub-item" data-type="working">
+          <span class="pub-item__year">2024</span>
+          <div>
+            <div class="pub-item__title">Historical Injustice and Temporal Distance</div>
+            <div class="pub-item__journal"><em>Under review</em> — available on request</div>
+            <div class="pub-item__tags">
+              <span class="tag">Working Paper</span>
+              <span class="tag">Historical Justice</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <div>
+          <div class="footer__brand-name">Paolo Lattanzi</div>
+          <div class="footer__brand-sub">Social & Political Theory · Philosophy of Time</div>
+        </div>
+        <ul class="footer__links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="research.html">Research</a></li>
+          <li><a href="publications.html">Publications</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer__bottom">
+        &copy; 2025 Paolo Lattanzi. All rights reserved.
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script>
+    // Filter functionality
+    const filterBtns = document.querySelectorAll('.filter-btn');
+    const pubItems = document.querySelectorAll('.pub-item');
+    const sectionHeadings = document.querySelectorAll('.pub-section-heading');
+
+    filterBtns.forEach(btn => {
+      btn.addEventListener('click', () => {
+        filterBtns.forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        const filter = btn.dataset.filter;
+
+        pubItems.forEach(item => {
+          item.style.display = (filter === 'all' || item.dataset.type === filter) ? '' : 'none';
+        });
+
+        sectionHeadings.forEach(h => {
+          const next = h.nextElementSibling;
+          const hasVisible = next && [...next.querySelectorAll('.pub-item')].some(i => i.style.display !== 'none');
+          h.style.display = (filter === 'all' || hasVisible) ? '' : 'none';
+        });
+      });
+    });
+  </script>
+</body>
+</html>
