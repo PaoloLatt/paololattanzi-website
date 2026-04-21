@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog — Paolo Lattanzi</title>
+  <meta name="description" content="Essays and reflections by Paolo Lattanzi on philosophy, politics, and time.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;1,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    .blog-list {
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+      margin-top: 2.5rem;
+    }
+    .blog-list-item {
+      display: grid;
+      grid-template-columns: 200px 1fr;
+      gap: 2rem;
+      background: var(--color-white);
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius-lg);
+      overflow: hidden;
+      box-shadow: var(--shadow-sm);
+      transition: box-shadow var(--transition), transform var(--transition);
+    }
+    .blog-list-item:hover {
+      box-shadow: var(--shadow-md);
+      transform: translateY(-2px);
+    }
+    .blog-list-item__thumb {
+      background: linear-gradient(135deg, var(--color-primary) 0%, #2d4a6e 100%);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 180px;
+      position: relative;
+      overflow: hidden;
+    }
+    .blog-list-item__thumb::after {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(circle at 30% 70%, rgba(196,154,60,0.2) 0%, transparent 60%);
+    }
+    .blog-list-item__category {
+      position: absolute;
+      bottom: 0.75rem;
+      left: 0.75rem;
+      padding: 0.2rem 0.55rem;
+      background: var(--color-accent);
+      color: var(--color-primary);
+      font-size: 0.68rem;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      border-radius: var(--radius);
+      z-index: 1;
+    }
+    .blog-list-item__body {
+      padding: 1.75rem 1.75rem 1.75rem 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    .blog-list-item__date {
+      font-size: 0.78rem;
+      color: var(--color-text-muted);
+      margin-bottom: 0.5rem;
+    }
+    .blog-list-item__title {
+      font-size: 1.2rem;
+      margin-bottom: 0.75rem;
+      color: var(--color-primary);
+    }
+    .blog-list-item__excerpt {
+      font-size: 0.9rem;
+      color: var(--color-text-muted);
+      line-height: 1.7;
+      margin-bottom: 1rem;
+    }
+    .blog-list-item__link {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.35rem;
+      font-size: 0.85rem;
+      font-weight: 600;
+      color: var(--color-accent);
+    }
+    .blog-list-item__link:hover {
+      gap: 0.55rem;
+    }
+    @media (max-width: 600px) {
+      .blog-list-item {
+        grid-template-columns: 1fr;
+      }
+      .blog-list-item__thumb {
+        min-height: 120px;
+      }
+      .blog-list-item__body {
+        padding: 1.25rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ===== NAVIGATION ===== -->
+  <nav class="nav" aria-label="Main navigation">
+    <div class="nav__inner">
+      <a href="index.html" class="nav__brand" aria-label="Paolo Lattanzi — Home">
+        <span class="nav__brand-name">Paolo Lattanzi</span>
+        <span class="nav__brand-sub">Academic Philosopher</span>
+      </a>
+      <button class="nav__toggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav__links" role="list">
+        <li><a href="index.html" class="nav__link">Home</a></li>
+        <li><a href="research.html" class="nav__link">Research</a></li>
+        <li><a href="publications.html" class="nav__link">Publications</a></li>
+        <li><a href="blog.html" class="nav__link">Blog</a></li>
+        <li><a href="contact.html" class="nav__link">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ===== PAGE HERO ===== -->
+  <section class="page-hero">
+    <div class="container page-hero__inner">
+      <nav class="breadcrumb" aria-label="Breadcrumb">
+        <a href="index.html">Home</a>
+        <span class="breadcrumb__sep">›</span>
+        <span class="breadcrumb__current">Blog</span>
+      </nav>
+      <h1 class="page-hero__title">Blog</h1>
+      <p class="page-hero__subtitle">
+        Essays, reflections, and short pieces on philosophy, time, politics, and their intersections.
+      </p>
+    </div>
+  </section>
+
+  <!-- ===== BLOG LIST ===== -->
+  <section class="section">
+    <div class="container">
+
+      <div class="blog-list">
+
+        <article class="blog-list-item">
+          <div class="blog-list-item__thumb">
+            <span class="blog-list-item__category">Philosophy of Time</span>
+          </div>
+          <div class="blog-list-item__body">
+            <time class="blog-list-item__date">March 12, 2025</time>
+            <h2 class="blog-list-item__title">Does Democracy Have a Time Problem?</h2>
+            <p class="blog-list-item__excerpt">
+              Electoral cycles are short. Climate change is long. Future generations can't vote.
+              I argue that this temporal mismatch is one of democracy's deepest structural challenges —
+              and that addressing it requires more than institutional tweaks. It requires rethinking
+              what democratic time is for.
+            </p>
+            <a href="#" class="blog-list-item__link">Read essay →</a>
+          </div>
+        </article>
+
+        <article class="blog-list-item">
+          <div class="blog-list-item__thumb">
+            <span class="blog-list-item__category">Political Theory</span>
+          </div>
+          <div class="blog-list-item__body">
+            <time class="blog-list-item__date">January 28, 2025</time>
+            <h2 class="blog-list-item__title">Memory, Justice, and the Past We Didn't Choose</h2>
+            <p class="blog-list-item__excerpt">
+              Historical injustices shape the present in ways that current generations did not cause
+              but must nonetheless address. What does collective responsibility require in such cases?
+              I argue for a view grounded in the concept of structural inheritance, not personal guilt.
+            </p>
+            <a href="#" class="blog-list-item__link">Read essay →</a>
+          </div>
+        </article>
+
+        <article class="blog-list-item">
+          <div class="blog-list-item__thumb">
+            <span class="blog-list-item__category">Metaphysics</span>
+          </div>
+          <div class="blog-list-item__body">
+            <time class="blog-list-item__date">November 5, 2024</time>
+            <h2 class="blog-list-item__title">What Makes Now Special? On the Metaphysics of the Present</h2>
+            <p class="blog-list-item__excerpt">
+              The present moment feels privileged — the locus of all experience and action. But is
+              this a feature of reality, or merely an artifact of our temporal perspective? A-theorists
+              say the present is objectively special; B-theorists disagree. I offer a political gloss
+              on this metaphysical debate.
+            </p>
+            <a href="#" class="blog-list-item__link">Read essay →</a>
+          </div>
+        </article>
+
+        <article class="blog-list-item">
+          <div class="blog-list-item__thumb">
+            <span class="blog-list-item__category">Social Theory</span>
+          </div>
+          <div class="blog-list-item__body">
+            <time class="blog-list-item__date">September 18, 2024</time>
+            <h2 class="blog-list-item__title">Urgency, Delay, and Political Inaction</h2>
+            <p class="blog-list-item__excerpt">
+              Why do political actors so often defer necessary action, even when the costs of delay
+              are clear? I explore this phenomenon through the lens of temporal discounting — the
+              tendency to value the present more than the future — and its troubling role in democratic
+              politics.
+            </p>
+            <a href="#" class="blog-list-item__link">Read essay →</a>
+          </div>
+        </article>
+
+        <article class="blog-list-item">
+          <div class="blog-list-item__thumb">
+            <span class="blog-list-item__category">Philosophy of Time</span>
+          </div>
+          <div class="blog-list-item__body">
+            <time class="blog-list-item__date">July 3, 2024</time>
+            <h2 class="blog-list-item__title">McTaggart's Ghost: Why the A/B Distinction Still Matters</h2>
+            <p class="blog-list-item__excerpt">
+              J.M.E. McTaggart's 1908 argument that time is unreal has never quite gone away.
+              More than a century later, philosophers still argue about whether the "flow" of time
+              is a fundamental feature of reality or a sophisticated illusion. I explain why this
+              matters beyond academic metaphysics.
+            </p>
+            <a href="#" class="blog-list-item__link">Read essay →</a>
+          </div>
+        </article>
+
+        <article class="blog-list-item">
+          <div class="blog-list-item__thumb">
+            <span class="blog-list-item__category">Political Theory</span>
+          </div>
+          <div class="blog-list-item__body">
+            <time class="blog-list-item__date">April 22, 2024</time>
+            <h2 class="blog-list-item__title">The Long Game: On Patience as a Political Virtue</h2>
+            <p class="blog-list-item__excerpt">
+              Political life rewards the quick and the loud. But many of the most important political
+              goods — stable institutions, trust, ecological sustainability — require forms of patient
+              commitment that democratic politics systematically undermines. Is patience a virtue
+              that democracy can cultivate?
+            </p>
+            <a href="#" class="blog-list-item__link">Read essay →</a>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <div>
+          <div class="footer__brand-name">Paolo Lattanzi</div>
+          <div class="footer__brand-sub">Social & Political Theory · Philosophy of Time</div>
+        </div>
+        <ul class="footer__links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="research.html">Research</a></li>
+          <li><a href="publications.html">Publications</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer__bottom">
+        &copy; 2025 Paolo Lattanzi. All rights reserved.
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
