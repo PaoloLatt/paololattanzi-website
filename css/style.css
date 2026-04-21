@@ -401,6 +401,14 @@ p:last-child { margin-bottom: 0; }
   letter-spacing: 0.05em;
 }
 
+.hero__portrait img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top center;
+  display: block;
+}
+
 /* ===== INTERESTS STRIP ===== */
 .interests {
   background: var(--color-primary);
