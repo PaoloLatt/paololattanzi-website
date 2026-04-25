@@ -41,19 +41,19 @@
         <div class="hero__content">
           <div class="hero__eyebrow">
             <span class="hero__eyebrow-line"></span>
-            <span class="hero__eyebrow-text">PhD Candidate · Universität Siegen</span>
+            <span class="hero__eyebrow-text" data-cms="hero.eyebrowText">PhD Candidate · Universität Siegen</span>
           </div>
-          <h1 class="hero__title">Paolo Lattanzi</h1>
-          <p class="hero__subtitle">Philosophy of Time · Analytic Metaphysics · Social Theory</p>
-          <p class="hero__desc">
+          <h1 class="hero__title" data-cms="hero.title">Paolo Lattanzi</h1>
+          <p class="hero__subtitle" data-cms="hero.subtitle">Philosophy of Time · Analytic Metaphysics · Social Theory</p>
+          <p class="hero__desc" data-cms="hero.description">
             PhD student in Philosophy at Universität Siegen with a strong foundation in
             metaphysics and social theory, alongside over a decade of international experience
             in digital marketing and performance analytics. Passionate about research and teaching,
             with proven success as a university lecturer.
           </p>
           <div class="hero__actions">
-            <a href="research.html" class="btn btn--primary">Explore My Research</a>
-            <a href="contact.html" class="btn btn--outline">Get in Touch</a>
+            <a href="research.html" class="btn btn--primary" data-cms="hero.ctaPrimaryText" data-cms-href="hero.ctaPrimaryHref">Explore My Research</a>
+            <a href="contact.html" class="btn btn--outline" data-cms="hero.ctaSecondaryText" data-cms-href="hero.ctaSecondaryHref">Get in Touch</a>
           </div>
         </div>
 
@@ -71,19 +71,19 @@
       <div class="interests__grid">
         <div class="interests__item">
           <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 8v4l3 3"/></svg>
-          Philosophy of Time
+          <span data-cms-interest-index="0">Philosophy of Time</span>
         </div>
         <div class="interests__item">
           <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M12 2v3m0 14v3M2 12h3m14 0h3m-3.3-6.7-2.1 2.1M7.4 16.6l-2.1 2.1m0-12.3 2.1 2.1m9.2 9.2 2.1 2.1"/></svg>
-          Analytic Metaphysics
+          <span data-cms-interest-index="1">Analytic Metaphysics</span>
         </div>
         <div class="interests__item">
           <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
-          Analytical Social Theory
+          <span data-cms-interest-index="2">Analytical Social Theory</span>
         </div>
         <div class="interests__item">
           <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
-          Foundations of Physics
+          <span data-cms-interest-index="3">Foundations of Physics</span>
         </div>
       </div>
     </div>
@@ -94,26 +94,28 @@
     <div class="container">
       <div class="about__grid">
         <div class="about__bio">
-          <span class="section-label">About Me</span>
-          <h2 class="section-title">Bridging Philosophy<br>and the World</h2>
+          <span class="section-label" data-cms="about.sectionLabel">About Me</span>
+          <h2 class="section-title" data-cms="about.heading">Bridging Philosophy<br>and the World</h2>
           <div class="divider"></div>
-          <p>
-            I am a <strong>PhD student in Philosophy</strong> at Universität Siegen, Germany,
-            with a strong foundation in <strong>analytic metaphysics</strong> and
-            <strong>social theory</strong>. My research focuses on Philosophy of Time,
-            Ontology, the Foundations of Physics, and Analytical Social Theory.
-          </p>
-          <p>
-            Alongside my doctoral work, I serve as an <strong>Honorary Professor</strong>
-            at IU Internationale Hochschule in Hamburg, where I teach Web Analytics and
-            Search Engine Marketing — bridging academic inquiry with real-world digital innovation.
-          </p>
-          <p>
-            Prior to returning to academia full-time, I built over a decade of experience
-            leading performance marketing teams across Hamburg, working with clients and
-            organisations such as Essity, DAAD, and Allianz.
-          </p>
-          <a href="research.html" class="btn btn--outline-dark" style="margin-top:1rem">View My Research →</a>
+          <div data-cms-list="about.paragraphs" data-cms-list-tag="p">
+            <p>
+              I am a <strong>PhD student in Philosophy</strong> at Universität Siegen, Germany,
+              with a strong foundation in <strong>analytic metaphysics</strong> and
+              <strong>social theory</strong>. My research focuses on Philosophy of Time,
+              Ontology, the Foundations of Physics, and Analytical Social Theory.
+            </p>
+            <p>
+              Alongside my doctoral work, I serve as an <strong>Honorary Professor</strong>
+              at IU Internationale Hochschule in Hamburg, where I teach Web Analytics and
+              Search Engine Marketing — bridging academic inquiry with real-world digital innovation.
+            </p>
+            <p>
+              Prior to returning to academia full-time, I built over a decade of experience
+              leading performance marketing teams across Hamburg, working with clients and
+              organisations such as Essity, DAAD, and Allianz.
+            </p>
+          </div>
+          <a href="research.html" class="btn btn--outline-dark" style="margin-top:1rem" data-cms="about.ctaLabel" data-cms-href="about.ctaHref">View My Research →</a>
         </div>
 
         <div class="about__facts">
@@ -122,8 +124,8 @@
               <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
             </div>
             <div class="fact-card__body">
-              <h4>PhD Candidate</h4>
-              <p>Universität Siegen, Germany<br>2023 – Present</p>
+              <h4 data-cms="about.factCards.0.heading">PhD Candidate</h4>
+              <p data-cms="about.factCards.0.body">Universität Siegen, Germany<br>2023 – Present</p>
             </div>
           </div>
 
@@ -132,8 +134,8 @@
               <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 8v4l3 3"/></svg>
             </div>
             <div class="fact-card__body">
-              <h4>Research Focus</h4>
-              <p>Philosophy of Time, Ontology, Analytic Metaphysics, Foundations of Physics</p>
+              <h4 data-cms="about.factCards.1.heading">Research Focus</h4>
+              <p data-cms="about.factCards.1.body">Philosophy of Time, Ontology, Analytic Metaphysics, Foundations of Physics</p>
             </div>
           </div>
 
@@ -142,8 +144,8 @@
               <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
             </div>
             <div class="fact-card__body">
-              <h4>Teaching</h4>
-              <p>Honorary Professor<br>IU Internationale Hochschule, Hamburg</p>
+              <h4 data-cms="about.factCards.2.heading">Teaching</h4>
+              <p data-cms="about.factCards.2.body">Honorary Professor<br>IU Internationale Hochschule, Hamburg</p>
             </div>
           </div>
 
@@ -152,8 +154,8 @@
               <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
             </div>
             <div class="fact-card__body">
-              <h4>Based in</h4>
-              <p>Hamburg, Germany</p>
+              <h4 data-cms="about.factCards.3.heading">Based in</h4>
+              <p data-cms="about.factCards.3.body">Hamburg, Germany</p>
             </div>
           </div>
         </div>
@@ -170,7 +172,7 @@
         My work spans five interconnected fields within analytic philosophy and social theory.
       </p>
 
-      <div class="research-areas">
+      <div class="research-areas" data-cms-list="research.areas" data-cms-list-template="research-card" data-cms-list-max="3">
         <div class="research-card">
           <div class="research-card__number">01</div>
           <h3 class="research-card__title">Philosophy of Time</h3>
@@ -230,29 +232,31 @@
       <h2 class="section-title">Selected Publications</h2>
       <div class="divider"></div>
 
-      <div class="publications-list">
-        <div class="pub-item">
-          <span class="pub-item__year">2026</span>
-          <div>
-            <div class="pub-item__title">Uneven Ties: Towards a Marxist Systems Theory of IR</div>
-            <div class="pub-item__journal">Marxism &amp; Sciences, Vol. 8, pp. 29–59</div>
-            <div class="pub-item__tags">
-              <span class="tag">Marxist Theory</span>
-              <span class="tag">IR Theory</span>
-              <span class="tag">Systems Theory</span>
+      <div data-cms-list="publications.items" data-cms-list-template="pub-item" data-cms-list-filter data-cms-list-max="2">
+        <div class="publications-list">
+          <div class="pub-item">
+            <span class="pub-item__year">2026</span>
+            <div>
+              <div class="pub-item__title">Uneven Ties: Towards a Marxist Systems Theory of IR</div>
+              <div class="pub-item__journal">Marxism &amp; Sciences, Vol. 8, pp. 29–59</div>
+              <div class="pub-item__tags">
+                <span class="tag">Marxist Theory</span>
+                <span class="tag">IR Theory</span>
+                <span class="tag">Systems Theory</span>
+              </div>
             </div>
           </div>
-        </div>
 
-        <div class="pub-item">
-          <span class="pub-item__year">2025</span>
-          <div>
-            <div class="pub-item__title">Imperialismus heute und der Ukraine-Krieg: eine historisch-materialistische Perspektive</div>
-            <div class="pub-item__journal">Jahrbuch für Marxistische Gesellschaftstheorie #4: Krieg &amp; Geopolitik, pp. 77–106</div>
-            <div class="pub-item__tags">
-              <span class="tag">Imperialism</span>
-              <span class="tag">Geopolitics</span>
-              <span class="tag">Historical Materialism</span>
+          <div class="pub-item">
+            <span class="pub-item__year">2025</span>
+            <div>
+              <div class="pub-item__title">Imperialismus heute und der Ukraine-Krieg: eine historisch-materialistische Perspektive</div>
+              <div class="pub-item__journal">Jahrbuch für Marxistische Gesellschaftstheorie #4: Krieg &amp; Geopolitik, pp. 77–106</div>
+              <div class="pub-item__tags">
+                <span class="tag">Imperialism</span>
+                <span class="tag">Geopolitics</span>
+                <span class="tag">Historical Materialism</span>
+              </div>
             </div>
           </div>
         </div>
@@ -269,9 +273,9 @@
     <div class="container">
       <span class="section-label">Blog</span>
       <h2 class="section-title">Latest Writing</h2>
-      <p class="section-subtitle">Essays, reflections, and commentary on philosophy, politics, and time.</p>
+      <p class="section-subtitle" data-cms="blog.homeSectionSubtitle">Essays, reflections, and commentary on philosophy, politics, and time.</p>
 
-      <div class="blog-grid">
+      <div class="blog-grid" data-cms-list="blog.posts" data-cms-list-template="blog-card" data-cms-list-filter data-cms-list-max="3">
         <article class="blog-card">
           <div class="blog-card__header">
             <span class="blog-card__category">Philosophy of Time</span>
@@ -350,5 +354,6 @@
   </footer>
 
   <script src="js/main.js"></script>
+  <script src="js/content-loader.js"></script>
 </body>
 </html>

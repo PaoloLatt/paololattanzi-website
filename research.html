@@ -40,8 +40,8 @@
         <span class="breadcrumb__sep">›</span>
         <span class="breadcrumb__current">Research</span>
       </nav>
-      <h1 class="page-hero__title">Research</h1>
-      <p class="page-hero__subtitle">
+      <h1 class="page-hero__title" data-cms="research.pageHeroTitle">Research</h1>
+      <p class="page-hero__subtitle" data-cms="research.pageHeroSubtitle">
         My work spans analytical philosophy of time, ontology, analytic metaphysics,
         foundations of physics, and analytical social theory.
       </p>
@@ -55,7 +55,7 @@
       <h2 class="section-title">Research Focus</h2>
       <div class="divider"></div>
 
-      <div class="research-areas">
+      <div class="research-areas" data-cms-list="research.areas" data-cms-list-template="research-card">
         <div class="research-card">
           <div class="research-card__number">01</div>
           <h3 class="research-card__title">Philosophy of Time</h3>
@@ -147,26 +147,26 @@
   <!-- ===== CURRENT PROJECT ===== -->
   <section class="section section--alt">
     <div class="container">
-      <span class="section-label">Current Project</span>
-      <h2 class="section-title">PhD Research at Universität Siegen</h2>
+      <span class="section-label" data-cms="research.phdProject.sectionLabel">Current Project</span>
+      <h2 class="section-title" data-cms="research.phdProject.heading">PhD Research at Universität Siegen</h2>
       <div class="divider"></div>
 
       <div style="display:grid; grid-template-columns: 2fr 1fr; gap: 3rem; align-items:start">
-        <div>
-          <p style="color:var(--color-text-muted); font-size:1.05rem; line-height:1.85; margin-bottom:1em">
+        <div data-cms-list="research.phdProject.paragraphs" data-cms-list-tag="p" style="color:var(--color-text-muted); font-size:1.05rem; line-height:1.85">
+          <p style="margin-bottom:1em">
             My doctoral research, conducted at Universität Siegen since 2023, sits at the
             intersection of <strong>Philosophy of Time</strong>, <strong>Analytical Metaphysics</strong>,
             and <strong>Ontology</strong>. The project develops a systematic account of temporal
             passage and its relationship to physical theory — in particular, to what special
             relativity tells us about time.
           </p>
-          <p style="color:var(--color-text-muted); font-size:1.05rem; line-height:1.85; margin-bottom:1em">
+          <p style="margin-bottom:1em">
             One strand of the research examines the <em>Rate Argument</em> — the question of
             whether time can coherently be said to "pass" at a rate — and its implications
             for A-theories of time. I presented early findings at the DGPhil 2024 conference
             under the title "The Rate Argument and the Twin Paradox."
           </p>
-          <p style="color:var(--color-text-muted); font-size:1.05rem; line-height:1.85">
+          <p>
             A second strand investigates the relationship between <em>tense and modality</em>:
             how the grammatical marking of past, present, and future connects to claims about
             what is possible and what is necessary. I presented this work at SOPhiA 2023.
@@ -178,19 +178,19 @@
           <dl style="display:flex; flex-direction:column; gap:0.9rem; font-size:0.9rem">
             <div>
               <dt style="font-weight:600; color:var(--color-primary); margin-bottom:0.1rem">Status</dt>
-              <dd style="color:var(--color-text-muted)">PhD in progress</dd>
+              <dd style="color:var(--color-text-muted)" data-cms="research.phdProject.details.status">PhD in progress</dd>
             </div>
             <div>
               <dt style="font-weight:600; color:var(--color-primary); margin-bottom:0.1rem">Institution</dt>
-              <dd style="color:var(--color-text-muted)">Universität Siegen, Germany</dd>
+              <dd style="color:var(--color-text-muted)" data-cms="research.phdProject.details.institution">Universität Siegen, Germany</dd>
             </div>
             <div>
               <dt style="font-weight:600; color:var(--color-primary); margin-bottom:0.1rem">Start date</dt>
-              <dd style="color:var(--color-text-muted)">2023</dd>
+              <dd style="color:var(--color-text-muted)" data-cms="research.phdProject.details.startDate">2023</dd>
             </div>
             <div>
               <dt style="font-weight:600; color:var(--color-primary); margin-bottom:0.1rem">Key themes</dt>
-              <dd style="color:var(--color-text-muted)">Philosophy of Time, Analytic Metaphysics, Ontology, Foundations of Physics</dd>
+              <dd style="color:var(--color-text-muted)" data-cms="research.phdProject.details.keyThemes">Philosophy of Time, Analytic Metaphysics, Ontology, Foundations of Physics</dd>
             </div>
           </dl>
         </div>
@@ -208,7 +208,7 @@
       <div style="display:grid; grid-template-columns:1fr 1fr; gap:3rem">
         <div>
           <h3 style="font-size:1rem; font-family:var(--font-sans); font-weight:700; text-transform:uppercase; letter-spacing:0.08em; color:var(--color-text-muted); margin-bottom:1.25rem">Education</h3>
-          <div style="display:flex; flex-direction:column; gap:1.25rem">
+          <div style="display:flex; flex-direction:column; gap:1.25rem" data-cms-list="research.education" data-cms-list-template="education-item">
             <div style="border-left:3px solid var(--color-accent); padding-left:1.25rem">
               <div style="font-weight:600; color:var(--color-primary)">PhD in Philosophy</div>
               <div style="font-size:0.9rem; color:var(--color-text-muted)">Universität Siegen, Germany — 2023–Present</div>
@@ -237,7 +237,7 @@
 
         <div>
           <h3 style="font-size:1rem; font-family:var(--font-sans); font-weight:700; text-transform:uppercase; letter-spacing:0.08em; color:var(--color-text-muted); margin-bottom:1.25rem">Academic Positions & Conferences</h3>
-          <div style="display:flex; flex-direction:column; gap:1.25rem">
+          <div style="display:flex; flex-direction:column; gap:1.25rem" data-cms-list="research.positions" data-cms-list-template="position-item">
             <div style="border-left:3px solid var(--color-accent); padding-left:1.25rem">
               <div style="font-weight:600; color:var(--color-primary)">Honorary Professor – Marketing</div>
               <div style="font-size:0.9rem; color:var(--color-text-muted)">IU Internationale Hochschule, Hamburg — May 2024–Present</div>
@@ -284,5 +284,6 @@
   </footer>
 
   <script src="js/main.js"></script>
+  <script src="js/content-loader.js"></script>
 </body>
 </html>

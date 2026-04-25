@@ -70,7 +70,7 @@ if (contactForm) {
   });
 }
 
-// Fade-in on scroll
+// Fade-in on scroll — exposed globally so content-loader can register new elements
 const observer = new IntersectionObserver((entries) => {
   entries.forEach(entry => {
     if (entry.isIntersecting) {
@@ -81,9 +81,13 @@ const observer = new IntersectionObserver((entries) => {
   });
 }, { threshold: 0.1 });
 
-document.querySelectorAll('.research-card, .pub-item, .blog-card, .fact-card').forEach(el => {
-  el.style.opacity = '0';
-  el.style.transform = 'translateY(20px)';
-  el.style.transition = 'opacity 0.5s ease, transform 0.5s ease';
-  observer.observe(el);
-});
+function observeAnimatedEls(root) {
+  (root || document).querySelectorAll('.research-card, .pub-item, .blog-card, .blog-list-item, .fact-card').forEach(el => {
+    el.style.opacity = '0';
+    el.style.transform = 'translateY(20px)';
+    el.style.transition = 'opacity 0.5s ease, transform 0.5s ease';
+    observer.observe(el);
+  });
+}
+window.observeAnimatedEls = observeAnimatedEls;
+observeAnimatedEls();
