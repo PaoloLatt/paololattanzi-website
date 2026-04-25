@@ -1,0 +1,243 @@
+{
+  "meta": {
+    "siteTitle": "Paolo Lattanzi — Academic Philosopher",
+    "siteDescription": "Personal academic website of Paolo Lattanzi — Social & Political Theory, Analytical Philosophy of Time.",
+    "footerTagline": "Social & Political Theory · Philosophy of Time",
+    "copyrightYear": "2025"
+  },
+  "nav": {
+    "brandName": "Paolo Lattanzi",
+    "brandSub": "Academic Philosopher"
+  },
+  "hero": {
+    "eyebrowText": "PhD Candidate · Universität Siegen",
+    "title": "Paolo Lattanzi",
+    "subtitle": "Philosophy of Time · Analytic Metaphysics · Social Theory",
+    "description": "PhD student in Philosophy at Universität Siegen with a strong foundation in metaphysics and social theory, alongside over a decade of international experience in digital marketing and performance analytics. Passionate about research and teaching, with proven success as a university lecturer.",
+    "portraitSrc": "images/profile.jpg",
+    "portraitAlt": "Paolo Lattanzi",
+    "ctaPrimaryText": "Explore My Research",
+    "ctaPrimaryHref": "research.html",
+    "ctaSecondaryText": "Get in Touch",
+    "ctaSecondaryHref": "contact.html"
+  },
+  "interests": [
+    { "id": "int-1", "label": "Philosophy of Time" },
+    { "id": "int-2", "label": "Analytic Metaphysics" },
+    { "id": "int-3", "label": "Analytical Social Theory" },
+    { "id": "int-4", "label": "Foundations of Physics" }
+  ],
+  "about": {
+    "sectionLabel": "About Me",
+    "heading": "Bridging Philosophy<br>and the World",
+    "paragraphs": [
+      "I am a <strong>PhD student in Philosophy</strong> at Universität Siegen, Germany, with a strong foundation in <strong>analytic metaphysics</strong> and <strong>social theory</strong>. My research focuses on Philosophy of Time, Ontology, the Foundations of Physics, and Analytical Social Theory.",
+      "Alongside my doctoral work, I serve as an <strong>Honorary Professor</strong> at IU Internationale Hochschule in Hamburg, where I teach Web Analytics and Search Engine Marketing — bridging academic inquiry with real-world digital innovation.",
+      "Prior to returning to academia full-time, I built over a decade of experience leading performance marketing teams across Hamburg, working with clients and organisations such as Essity, DAAD, and Allianz."
+    ],
+    "ctaLabel": "View My Research →",
+    "ctaHref": "research.html",
+    "factCards": [
+      { "id": "fact-1", "heading": "PhD Candidate", "body": "Universität Siegen, Germany<br>2023 – Present" },
+      { "id": "fact-2", "heading": "Research Focus", "body": "Philosophy of Time, Ontology, Analytic Metaphysics, Foundations of Physics" },
+      { "id": "fact-3", "heading": "Teaching", "body": "Honorary Professor<br>IU Internationale Hochschule, Hamburg" },
+      { "id": "fact-4", "heading": "Based in", "body": "Hamburg, Germany" }
+    ]
+  },
+  "research": {
+    "pageHeroTitle": "Research",
+    "pageHeroSubtitle": "My work spans analytical philosophy of time, ontology, analytic metaphysics, foundations of physics, and analytical social theory.",
+    "homeSectionSubtitle": "My work spans five interconnected fields within analytic philosophy and social theory.",
+    "areas": [
+      {
+        "id": "area-1",
+        "number": "01",
+        "title": "Philosophy of Time",
+        "description": "Investigating the metaphysical dimensions of temporal experience — passage, the present moment, McTaggart's A- and B-series, and the deep relationship between time, change, and causation.",
+        "tags": ["Temporal Ontology", "McTaggart", "A/B-Theory"]
+      },
+      {
+        "id": "area-2",
+        "number": "02",
+        "title": "Analytic Metaphysics",
+        "description": "Engaging with core problems in analytic ontology — persistence through time, identity, modality, and the structure of reality as approached through the tools of analytic philosophy.",
+        "tags": ["Ontology", "Persistence", "Modality"]
+      },
+      {
+        "id": "area-3",
+        "number": "03",
+        "title": "Analytical Social Theory",
+        "description": "Applying analytic philosophical tools to questions of society, power, and political economy — including contributions to Marxist systems theory and international relations.",
+        "tags": ["Marxist Theory", "IR Theory", "Political Economy"]
+      },
+      {
+        "id": "area-4",
+        "number": "04",
+        "title": "Foundations of Physics",
+        "description": "Exploring the philosophical implications of fundamental physics — in particular, what special relativity reveals about the nature of time, space, and causation. The Twin Paradox and its implications for temporal passage are a central concern.",
+        "tags": ["Special Relativity", "Twin Paradox", "Philosophy of Physics"]
+      },
+      {
+        "id": "area-5",
+        "number": "05",
+        "title": "Ontology",
+        "description": "Investigating the fundamental structure of reality through the methods of analytic ontology — questions of existence, identity, parthood, and the categories of being as they relate to time.",
+        "tags": ["Metaphysics", "Existence", "Identity", "Categories"]
+      }
+    ],
+    "phdProject": {
+      "sectionLabel": "Current Project",
+      "heading": "PhD Research at Universität Siegen",
+      "paragraphs": [
+        "My doctoral research, conducted at Universität Siegen since 2023, sits at the intersection of <strong>Philosophy of Time</strong>, <strong>Analytical Metaphysics</strong>, and <strong>Ontology</strong>. The project develops a systematic account of temporal passage and its relationship to physical theory — in particular, to what special relativity tells us about time.",
+        "One strand of the research examines the <em>Rate Argument</em> — the question of whether time can coherently be said to \"pass\" at a rate — and its implications for A-theories of time. I presented early findings at the DGPhil 2024 conference under the title \"The Rate Argument and the Twin Paradox.\"",
+        "A second strand investigates the relationship between <em>tense and modality</em>: how the grammatical marking of past, present, and future connects to claims about what is possible and what is necessary. I presented this work at SOPhiA 2023."
+      ],
+      "details": {
+        "status": "PhD in progress",
+        "institution": "Universität Siegen, Germany",
+        "startDate": "2023",
+        "keyThemes": "Philosophy of Time, Analytic Metaphysics, Ontology, Foundations of Physics"
+      }
+    },
+    "education": [
+      { "id": "edu-1", "degree": "PhD in Philosophy", "institution": "Universität Siegen, Germany", "years": "2023–Present", "note": "Focus: Philosophy of Time, Analytical Metaphysics, Ontology", "current": true },
+      { "id": "edu-2", "degree": "M.A. in Analytical Philosophy", "institution": "Universität Hamburg, Germany", "years": "2019–2023", "note": "Focus: Analytical Metaphysics, Ontology", "current": false },
+      { "id": "edu-3", "degree": "M.A. in Marketing", "institution": "Università Ca' Foscari Venezia, Italy", "years": "2011–2012", "note": "", "current": false },
+      { "id": "edu-4", "degree": "M.A. in Philosophy", "institution": "Università Ca' Foscari Venezia, Italy", "years": "2008–2011", "note": "Focus: Continental Metaphysics, French Theory, Phenomenology", "current": false },
+      { "id": "edu-5", "degree": "B.A. in Philosophy", "institution": "Università Ca' Foscari Venezia, Italy", "years": "2005–2008", "note": "", "current": false }
+    ],
+    "positions": [
+      { "id": "pos-1", "title": "Honorary Professor – Marketing", "institution": "IU Internationale Hochschule, Hamburg", "years": "May 2024–Present", "note": "Courses: Web Analytics, Search Engine Marketing", "current": true },
+      { "id": "pos-2", "title": "DGPhil 2024", "institution": "", "years": "2024", "note": "Paper: \"The Rate Argument and the Twin Paradox\"", "current": false },
+      { "id": "pos-3", "title": "SOPhiA 2023", "institution": "", "years": "2023", "note": "Paper: \"Tense and Modality\"", "current": false }
+    ]
+  },
+  "publications": {
+    "pageHeroTitle": "Publications",
+    "pageHeroSubtitle": "Journal articles, book chapters, conference presentations, and working papers.",
+    "items": [
+      {
+        "id": "pub-1",
+        "type": "article",
+        "year": "2026",
+        "title": "Uneven Ties: Towards a Marxist Systems Theory of IR",
+        "journal": "<em>Marxism & Sciences</em>, Vol. 8, pp. 29–59",
+        "tags": ["Marxist Theory", "IR Theory", "Systems Theory", "Political Economy"],
+        "url": "",
+        "featured": true
+      },
+      {
+        "id": "pub-2",
+        "type": "article",
+        "year": "2025",
+        "title": "Imperialismus heute und der Ukraine-Krieg: eine historisch-materialistische Perspektive",
+        "journal": "<em>Jahrbuch für Marxistische Gesellschaftstheorie #4: Krieg & Geopolitik</em>, pp. 77–106",
+        "tags": ["Imperialism", "Geopolitics", "Historical Materialism", "Ukraine"],
+        "url": "",
+        "featured": true
+      },
+      {
+        "id": "pub-3",
+        "type": "conference",
+        "year": "2024",
+        "title": "The Rate Argument and the Twin Paradox",
+        "journal": "DGPhil (Deutsche Gesellschaft für Philosophie) 2024",
+        "tags": ["Philosophy of Time", "Special Relativity", "Rate Argument"],
+        "url": "",
+        "featured": false
+      },
+      {
+        "id": "pub-4",
+        "type": "conference",
+        "year": "2023",
+        "title": "Tense and Modality",
+        "journal": "SOPhiA (Salzburg Conference for Young Analytic Philosophy) 2023",
+        "tags": ["Tense Logic", "Modality", "Analytic Metaphysics"],
+        "url": "",
+        "featured": false
+      }
+    ]
+  },
+  "blog": {
+    "pageHeroTitle": "Blog",
+    "pageHeroSubtitle": "Essays, reflections, and short pieces on philosophy, time, politics, and their intersections.",
+    "homeSectionSubtitle": "Essays, reflections, and commentary on philosophy, politics, and time.",
+    "posts": [
+      {
+        "id": "post-1",
+        "category": "Philosophy of Time",
+        "date": "DGPhil 2024 — Conference Presentation",
+        "title": "The Rate Argument and the Twin Paradox",
+        "excerpt": "Can time genuinely pass at a rate — and what does special relativity's famous twin paradox reveal about that rate? I examine what this tells us about A-theories of temporal passage and whether the Rate Argument can survive relativistic physics.",
+        "url": "#",
+        "imageSrc": "",
+        "featured": true
+      },
+      {
+        "id": "post-2",
+        "category": "Analytic Metaphysics",
+        "date": "SOPhiA 2023 — Conference Presentation",
+        "title": "Tense and Modality",
+        "excerpt": "What is the relationship between tense — the grammatical marking of past, present, and future — and modal claims about what is possible and what is necessary? I explore tense logic and its connections to modal logic.",
+        "url": "#",
+        "imageSrc": "",
+        "featured": true
+      },
+      {
+        "id": "post-3",
+        "category": "Analytical Social Theory",
+        "date": "On the paper published in Marxism & Sciences, 2026",
+        "title": "Towards a Marxist Systems Theory of International Relations",
+        "excerpt": "Standard IR theories share a common blind spot: they treat the international system as a set of interacting states rather than as a structured totality shaped by capitalist dynamics. Drawing on systems theory and Marxist political economy, I propose a framework centred on the concept of \"uneven ties.\"",
+        "url": "#",
+        "imageSrc": "",
+        "featured": true
+      },
+      {
+        "id": "post-4",
+        "category": "Geopolitics",
+        "date": "On the chapter in Jahrbuch für Marxistische Gesellschaftstheorie, 2025",
+        "title": "Imperialismus heute und der Ukraine-Krieg",
+        "excerpt": "The war in Ukraine is not merely a conflict between two states — it is a node in the broader structure of inter-imperialist rivalry. From a historical-materialist standpoint, I reconstruct the economic and geopolitical forces that produced the conflict.",
+        "url": "#",
+        "imageSrc": "",
+        "featured": false
+      },
+      {
+        "id": "post-5",
+        "category": "Philosophy of Time",
+        "date": "Reflections on Doctoral Research",
+        "title": "McTaggart's A-Series: Still the Best Game in Town?",
+        "excerpt": "McTaggart's 1908 argument that time is unreal, and the A/B distinction that it rests on, remain central to the metaphysics of time. I examine why A-theories continue to attract defenders despite the challenges posed by physics and the rate argument.",
+        "url": "#",
+        "imageSrc": "",
+        "featured": false
+      },
+      {
+        "id": "post-6",
+        "category": "Foundations of Physics",
+        "date": "Reflections on Research",
+        "title": "What Relativity Tells Us — and Doesn't Tell Us — About Time",
+        "excerpt": "Special relativity is often cited as decisive evidence against A-theories of time. If simultaneity is relative, there can be no objective \"now.\" But does relativity really settle the metaphysical question, or does it merely shift its terms?",
+        "url": "#",
+        "imageSrc": "",
+        "featured": false
+      }
+    ]
+  },
+  "contact": {
+    "pageHeroTitle": "Get in Touch",
+    "pageHeroSubtitle": "I welcome correspondence from students, researchers, and anyone with a genuine interest in the topics I work on.",
+    "introText": "Feel free to reach out about my research, collaboration opportunities, speaking invitations, or teaching enquiries. I try to respond to all messages within a week.",
+    "email": "paolo.latt.85@gmail.com",
+    "phone": "+49 157 87188267",
+    "affiliation": "PhD Candidate — Universität Siegen<br>Honorary Professor — IU Internationale Hochschule<br>Hamburg, Germany",
+    "location": "Hamburg, Germany",
+    "profiles": {
+      "philpapers": "#",
+      "academia": "#",
+      "linkedin": "#"
+    }
+  }
+}

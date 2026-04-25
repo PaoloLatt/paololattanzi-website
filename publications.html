@@ -77,8 +77,8 @@
         <span class="breadcrumb__sep">›</span>
         <span class="breadcrumb__current">Publications</span>
       </nav>
-      <h1 class="page-hero__title">Publications</h1>
-      <p class="page-hero__subtitle">
+      <h1 class="page-hero__title" data-cms="publications.pageHeroTitle">Publications</h1>
+      <p class="page-hero__subtitle" data-cms="publications.pageHeroSubtitle">
         Journal articles, book chapters, and working papers in philosophy of time and political theory.
       </p>
     </div>
@@ -95,80 +95,64 @@
         <button class="filter-btn" data-filter="conference">Conference Presentations</button>
       </div>
 
-      <!-- Journal Articles -->
-      <div class="pub-section-heading">Journal Articles</div>
-      <div class="publications-list">
+      <div id="pub-list-root" data-cms-list="publications.items" data-cms-list-group-by="type">
 
-        <div class="pub-item" data-type="article">
-          <span class="pub-item__year">2026</span>
-          <div>
-            <div class="pub-item__title">Uneven Ties: Towards a Marxist Systems Theory of IR</div>
-            <div class="pub-item__journal"><em>Marxism &amp; Sciences</em>, Vol. 8, pp. 29–59</div>
-            <div class="pub-item__tags">
-              <span class="tag">Marxist Theory</span>
-              <span class="tag">IR Theory</span>
-              <span class="tag">Systems Theory</span>
-              <span class="tag">Political Economy</span>
+        <!-- Journal Articles -->
+        <div class="pub-section-heading">Journal Articles</div>
+        <div class="publications-list">
+          <div class="pub-item" data-type="article">
+            <span class="pub-item__year">2026</span>
+            <div>
+              <div class="pub-item__title">Uneven Ties: Towards a Marxist Systems Theory of IR</div>
+              <div class="pub-item__journal"><em>Marxism &amp; Sciences</em>, Vol. 8, pp. 29–59</div>
+              <div class="pub-item__tags">
+                <span class="tag">Marxist Theory</span>
+                <span class="tag">IR Theory</span>
+                <span class="tag">Systems Theory</span>
+                <span class="tag">Political Economy</span>
+              </div>
+            </div>
+          </div>
+          <div class="pub-item" data-type="article">
+            <span class="pub-item__year">2025</span>
+            <div>
+              <div class="pub-item__title">Imperialismus heute und der Ukraine-Krieg: eine historisch-materialistische Perspektive</div>
+              <div class="pub-item__journal"><em>Jahrbuch für Marxistische Gesellschaftstheorie #4: Krieg &amp; Geopolitik</em>, pp. 77–106</div>
+              <div class="pub-item__tags">
+                <span class="tag">Imperialism</span>
+                <span class="tag">Geopolitics</span>
+                <span class="tag">Historical Materialism</span>
+                <span class="tag">Ukraine</span>
+              </div>
             </div>
           </div>
         </div>
 
-        <div class="pub-item" data-type="article">
-          <span class="pub-item__year">2025</span>
-          <div>
-            <div class="pub-item__title">Imperialismus heute und der Ukraine-Krieg: eine historisch-materialistische Perspektive</div>
-            <div class="pub-item__journal"><em>Jahrbuch für Marxistische Gesellschaftstheorie #4: Krieg &amp; Geopolitik</em>, pp. 77–106</div>
-            <div class="pub-item__tags">
-              <span class="tag">Imperialism</span>
-              <span class="tag">Geopolitics</span>
-              <span class="tag">Historical Materialism</span>
-              <span class="tag">Ukraine</span>
+        <!-- Conference Presentations -->
+        <div class="pub-section-heading">Conference Presentations</div>
+        <div class="publications-list">
+          <div class="pub-item" data-type="conference">
+            <span class="pub-item__year">2024</span>
+            <div>
+              <div class="pub-item__title">The Rate Argument and the Twin Paradox</div>
+              <div class="pub-item__journal">DGPhil (Deutsche Gesellschaft für Philosophie) 2024</div>
+              <div class="pub-item__tags">
+                <span class="tag">Philosophy of Time</span>
+                <span class="tag">Special Relativity</span>
+                <span class="tag">Rate Argument</span>
+              </div>
             </div>
           </div>
-        </div>
-
-      </div>
-
-      <!-- Book Chapters -->
-      <div class="pub-section-heading">Book Chapters</div>
-      <div class="publications-list">
-
-        <div class="pub-item" data-type="chapter">
-          <span class="pub-item__year" style="opacity:.4; font-style:italic">—</span>
-          <div>
-            <div class="pub-item__title" style="color:var(--color-text-muted); font-style:italic">No book chapters listed yet</div>
-            <div class="pub-item__journal">Check back for updates.</div>
-          </div>
-        </div>
-
-      </div>
-
-      <!-- Conference Presentations -->
-      <div class="pub-section-heading">Conference Presentations</div>
-      <div class="publications-list">
-
-        <div class="pub-item" data-type="conference">
-          <span class="pub-item__year">2024</span>
-          <div>
-            <div class="pub-item__title">The Rate Argument and the Twin Paradox</div>
-            <div class="pub-item__journal">DGPhil (Deutsche Gesellschaft für Philosophie) 2024</div>
-            <div class="pub-item__tags">
-              <span class="tag">Philosophy of Time</span>
-              <span class="tag">Special Relativity</span>
-              <span class="tag">Rate Argument</span>
-            </div>
-          </div>
-        </div>
-
-        <div class="pub-item" data-type="conference">
-          <span class="pub-item__year">2023</span>
-          <div>
-            <div class="pub-item__title">Tense and Modality</div>
-            <div class="pub-item__journal">SOPhiA (Salzburg Conference for Young Analytic Philosophy) 2023</div>
-            <div class="pub-item__tags">
-              <span class="tag">Tense Logic</span>
-              <span class="tag">Modality</span>
-              <span class="tag">Analytic Metaphysics</span>
+          <div class="pub-item" data-type="conference">
+            <span class="pub-item__year">2023</span>
+            <div>
+              <div class="pub-item__title">Tense and Modality</div>
+              <div class="pub-item__journal">SOPhiA (Salzburg Conference for Young Analytic Philosophy) 2023</div>
+              <div class="pub-item__tags">
+                <span class="tag">Tense Logic</span>
+                <span class="tag">Modality</span>
+                <span class="tag">Analytic Metaphysics</span>
+              </div>
             </div>
           </div>
         </div>
@@ -201,28 +185,22 @@
   </footer>
 
   <script src="js/main.js"></script>
+  <script src="js/content-loader.js"></script>
   <script>
-    // Filter functionality
-    const filterBtns = document.querySelectorAll('.filter-btn');
-    const pubItems = document.querySelectorAll('.pub-item');
-    const sectionHeadings = document.querySelectorAll('.pub-section-heading');
-
-    filterBtns.forEach(btn => {
-      btn.addEventListener('click', () => {
-        filterBtns.forEach(b => b.classList.remove('active'));
+    // Static filter fallback — uses onclick so content-loader's setupPubFilters can cleanly override
+    document.querySelectorAll('.filter-btn').forEach(btn => {
+      btn.onclick = () => {
+        document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
         btn.classList.add('active');
         const filter = btn.dataset.filter;
-
-        pubItems.forEach(item => {
-          item.style.display = (filter === 'all' || item.dataset.type === filter) ? '' : 'none';
-        });
-
-        sectionHeadings.forEach(h => {
+        document.querySelectorAll('#pub-list-root .pub-section-heading').forEach(h => {
           const next = h.nextElementSibling;
-          const hasVisible = next && [...next.querySelectorAll('.pub-item')].some(i => i.style.display !== 'none');
-          h.style.display = (filter === 'all' || hasVisible) ? '' : 'none';
+          const typeMap = { 'Journal Articles': 'article', 'Book Chapters': 'chapter', 'Conference Presentations': 'conference', 'Working Papers': 'working' };
+          const show = filter === 'all' || typeMap[h.textContent] === filter;
+          h.style.display = show ? '' : 'none';
+          if (next) next.style.display = show ? '' : 'none';
         });
-      });
+      };
     });
   </script>
 </body>

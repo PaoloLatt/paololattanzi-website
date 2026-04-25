@@ -136,8 +136,8 @@
         <span class="breadcrumb__sep">›</span>
         <span class="breadcrumb__current">Blog</span>
       </nav>
-      <h1 class="page-hero__title">Blog</h1>
-      <p class="page-hero__subtitle">
+      <h1 class="page-hero__title" data-cms="blog.pageHeroTitle">Blog</h1>
+      <p class="page-hero__subtitle" data-cms="blog.pageHeroSubtitle">
         Essays, reflections, and short pieces on philosophy, time, politics, and their intersections.
       </p>
     </div>
@@ -147,7 +147,7 @@
   <section class="section">
     <div class="container">
 
-      <div class="blog-list">
+      <div class="blog-list" data-cms-list="blog.posts" data-cms-list-template="blog-list-item">
 
         <article class="blog-list-item">
           <div class="blog-list-item__thumb">
@@ -278,5 +278,6 @@
   </footer>
 
   <script src="js/main.js"></script>
+  <script src="js/content-loader.js"></script>
 </body>
 </html>
